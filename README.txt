@@ -1,6 +1,6 @@
 # Automatic-File-Return-System
 
-A project to automate file returns
+A project to automate file returns and manually file returns.
 
 ## Table of Contents
 
