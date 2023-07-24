@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+<title>Automatic Return System</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<script src="script.js" defer></script>
+<style>
+	body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color:lightgray;
+  color: #fff;
+  padding: 20px;
+  height: 170px;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.features {
+  background-color: #eee;
+  padding: 20px;
+}
+
+.benefits {
+  background-color: #fff;
+  padding: 20px;
+}
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+.benefits_container{
+	display: flex;
+}
+.benefits{
+	display: flex;
+	align-items: flex-start;
+}
+section h2 a{
+	background: red;
+	color: white;
+	border: none;
+	padding: 4px;
+	font-size: 25px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+section h2 a:hover{
+	background-color: transparent;
+	border: solid 2px red;
+	color:black;
+}
+
+.btn:hover{
+	background-color: transparent;
+	border: solid 2px red;
+	color:white;
+}
+</style>
+</head>
+<body>
+<header>
+	<div style="display: flex;">
+<a href="index.html"><img src="tax_wizard1.png" style="height:100px;"></a>
+<a href="register.php" style="margin-left: auto;font-size: 20px; font-weight: bolder;color: black;">Signup</a>
+<a href="login.html" style="margin-left:5%; font-size: 20px;font-weight: bolder; color: black;">Login</a>
+</div>
+<p style="font-size:15px;">Easily file your taxes with our automated system
+<i class='bx bx-sun' id="toggleDark" style="margin-left:100%; font-size:20px;color: black;"></i>
+</p>
+
+</header>
+<main>
+	<h2 style="text-align:center; font-weight:bolder;">Features</h2>
+<section>
+<div class="row">
+  <div class="col-sm-4">
+    <div class="card m-2">
+      <div class="card-body">
+        <h5 class="card-title" style="font-weight:bolder;background: black; color: white; border-radius: 6px; padding:4px;">Automatically generate your tax return</h5>
+        <p class="card-text" style="font-size:15px;">This feature allows you to enter your tax information into the system, and the system will automatically generate your tax return. This can save your time and hassle, and it can help to reduce the risk of errors.</p>
+        <a href="register.html" class="btn" style="background:red; color: black;">Get Free Trial</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title" style="font-weight:bolder;background: black; color: white;border-radius: 6px; padding:4px;">File your tax return online</h5>
+        <p class="card-text" style="font-size:15px;">This feature allows you to file your tax returns online through the system. This can be convenient if you do not have access to a physical tax preparer, and it can also be faster and more efficient than filing by mail.</p>
+        <a href="register.html" class="btn" style="background:red; color: black;">Get Free Trial</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card m-2" >
+      <div class="card-body">
+        <h5 class="card-title" style="font-weight:bolder;background: black; color: white; border-radius: 6px; padding:4px;">Track the status of your tax return</h5>
+        <p class="card-text" style="font-size:15px;">This feature allows you to track the status of your tax returns after they have been filed. This can be helpful if  want to know when the refunds will be processed, or if there are any issues with their tax returns.</p>
+        <a href="register.html" class="btn" style="background:red; color: black;">Get Free Trial</a>
+      </div>
+    </div>
+</div>
+</section>	
+<section>
+<h2 style="text-align:center; font-weight: bolder;">Benefits</h2>
+<section>
+	<div class="benefits_container">
+<div class="card text-dark  mb-3 benefits" style="margin: 3px;background: lightgray;border: none;">
+  <div class="card-body">
+    <p class="card-text">Save time and hassle</p>
+  </div>
+</div>
+<div class="card text-white  mb-3 benefits" style="margin: 3px;background: red;border: none;">
+  <div class="card-body">
+    <p class="card-text" >Reduce the risk of errors</p>
+  </div>
+</div>
+<div class="card text-dark  mb-3 benefits" style="margin: 3px;background: lightgray; color: black;border: none;">
+  <div class="card-body">
+    <p class="card-text">Get your refund faster</p>
+  </div>
+</div>
+<div class="card text-white  mb-3 benefits" style="margin: 3px;background: red;border: none;">
+  <div class="card-body">
+    <p class="card-text">Stay compliant with tax laws</p>
+  </div>
+</div>
+</div>
+<br>
+<section>
+<p style="text-align:center; color: black;">Sign up for a free account today and start filing your taxes automatically</p>
+<h2 style="text-align:center;"><a href="register.php" >Get started</a></h2>
+</section>
+</main>
+<footer>
+<p style="text-align:center;">Copyright &copy; 2023 Tax Wizard</p>
+</footer>
+</body>
+</html>
